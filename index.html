@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Knowledge Quiz</h1>
+        <!-- Start Page -->
+        <div id="start-container" class="page">
+            <p>Welcome to the Quiz! Are you ready?</p>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+        <!-- Quiz Page -->
+        <div id="quiz-container" class="page" style="display: none;">
+            <div id="progress-bar"><span></span></div>
+            <div id="question-container">
+                <p id="question"></p>
+                <ul id="options"></ul>
+            </div>
+            <button id="next-btn" disabled>Next</button>
+        </div>
+        <!-- Results Page -->
+        <div id="results-container" class="page" style="display: none;">
+            <h2>Quiz Results</h2>
+            <p id="score"></p>
+            <div id="charts"></div>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
