@@ -99,9 +99,84 @@ body {
     display: block;
 }
 
+/* Table styles for quiz results */
+#results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#results-table th, #results-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#results-table th {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+#results-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#results-table tr:hover {
+    background-color: #ddd;
+}
+
+/* Sorting buttons container */
+#sorting-buttons {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Sorting buttons styling */
+#sorting-buttons button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+#sorting-buttons button:hover {
+    background-color: #45a049;
+}
+
+/* Total time display styling */
+#total-time {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Timer display styling */
+#timer-display {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #666;
+}
+
 /* Responsive design adjustments */
 @media (max-width: 600px) {
     .container {
         width: 95%;
+    }
+    #results-table th, #results-table td {
+        font-size: 12px;
+        padding: 5px;
+    }
+    #sorting-buttons button {
+        font-size: 12px;
+        padding: 8px 10px;
     }
 }

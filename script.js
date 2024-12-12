@@ -1,51 +1,152 @@
 // Define questions for each difficulty level
 const questions1 = [
-    { question: "What is 2 + 2?", options: ["4", "3", "5", "6"], answer: 0 },
-    { question: "What is the capital of France?", options: ["Paris", "Berlin", "Madrid", "Rome"], answer: 0 },
-    { question: "What color is the sky on a clear day?", options: ["Blue", "Green", "Red", "Yellow"], answer: 0 },
-    { question: "How many days are in a leap year?", options: ["366", "365", "364", "367"], answer: 0 },
-    { question: "What is the boiling point of water in Celsius?", options: ["100", "90", "80", "110"], answer: 0 },
+  { question: "What is 2 + 2?", options: ["4", "3", "5", "6"], answer: 0 },
+  {
+    question: "What is the capital of France?",
+    options: ["Paris", "Berlin", "Madrid", "Rome"],
+    answer: 0,
+  },
+  {
+    question: "What color is the sky on a clear day?",
+    options: ["Blue", "Green", "Red", "Yellow"],
+    answer: 0,
+  },
+  {
+    question: "How many days are in a leap year?",
+    options: ["366", "365", "364", "367"],
+    answer: 0,
+  },
+  {
+    question: "What is the boiling point of water in Celsius?",
+    options: ["100", "90", "80", "110"],
+    answer: 0,
+  },
 ];
 
 const questions2 = [
-    { question: "Who painted the Mona Lisa?", options: ["Leonardo da Vinci", "Michelangelo", "Van Gogh", "Picasso"], answer: 0 },
-    { question: "What is the smallest prime number?", options: ["2", "1", "3", "5"], answer: 0 },
-    { question: "What is the square root of 16?", options: ["4", "3", "5", "6"], answer: 0 },
-    { question: "What is the chemical symbol for water?", options: ["H2O", "O2", "CO2", "NaCl"], answer: 0 },
-    { question: "How many continents are there?", options: ["7", "6", "5", "8"], answer: 0 },
+  {
+    question: "Who painted the Mona Lisa?",
+    options: ["Leonardo da Vinci", "Michelangelo", "Van Gogh", "Picasso"],
+    answer: 0,
+  },
+  {
+    question: "What is the smallest prime number?",
+    options: ["2", "1", "3", "5"],
+    answer: 0,
+  },
+  {
+    question: "What is the square root of 16?",
+    options: ["4", "3", "5", "6"],
+    answer: 0,
+  },
+  {
+    question: "What is the chemical symbol for water?",
+    options: ["H2O", "O2", "CO2", "NaCl"],
+    answer: 0,
+  },
+  {
+    question: "How many continents are there?",
+    options: ["7", "6", "5", "8"],
+    answer: 0,
+  },
 ];
 
 const questions3 = [
-    { question: "What is the capital of Japan?", options: ["Tokyo", "Kyoto", "Osaka", "Hiroshima"], answer: 0 },
-    { question: "What is 12 x 12?", options: ["144", "121", "156", "132"], answer: 0 },
-    { question: "Who wrote 'Hamlet'?", options: ["Shakespeare", "Homer", "Tolkien", "Dante"], answer: 0 },
-    { question: "What is the speed of sound in air?", options: ["343 m/s", "300 m/s", "250 m/s", "400 m/s"], answer: 0 },
-    { question: "Which planet is closest to the sun?", options: ["Mercury", "Venus", "Earth", "Mars"], answer: 0 },
+  {
+    question: "What is the capital of Japan?",
+    options: ["Tokyo", "Kyoto", "Osaka", "Hiroshima"],
+    answer: 0,
+  },
+  {
+    question: "What is 12 x 12?",
+    options: ["144", "121", "156", "132"],
+    answer: 0,
+  },
+  {
+    question: "Who wrote 'Hamlet'?",
+    options: ["Shakespeare", "Homer", "Tolkien", "Dante"],
+    answer: 0,
+  },
+  {
+    question: "What is the speed of sound in air?",
+    options: ["343 m/s", "300 m/s", "250 m/s", "400 m/s"],
+    answer: 0,
+  },
+  {
+    question: "Which planet is closest to the sun?",
+    options: ["Mercury", "Venus", "Earth", "Mars"],
+    answer: 0,
+  },
 ];
 
 const questions4 = [
-    { question: "What is the derivative of x^2?", options: ["2x", "x^2", "x", "2"], answer: 0 },
-    { question: "Who discovered gravity?", options: ["Newton", "Einstein", "Galileo", "Darwin"], answer: 0 },
-    { question: "What is the atomic number of carbon?", options: ["6", "12", "8", "4"], answer: 0 },
-    { question: "What is the largest desert in the world?", options: ["Antarctica", "Sahara", "Arctic", "Gobi"], answer: 0 },
-    { question: "What is the value of pi (approx)?", options: ["3.14", "3.13", "3.15", "3.16"], answer: 0 },
+  {
+    question: "What is the derivative of x^2?",
+    options: ["2x", "x^2", "x", "2"],
+    answer: 0,
+  },
+  {
+    question: "Who discovered gravity?",
+    options: ["Newton", "Einstein", "Galileo", "Darwin"],
+    answer: 0,
+  },
+  {
+    question: "What is the atomic number of carbon?",
+    options: ["6", "12", "8", "4"],
+    answer: 0,
+  },
+  {
+    question: "What is the largest desert in the world?",
+    options: ["Antarctica", "Sahara", "Arctic", "Gobi"],
+    answer: 0,
+  },
+  {
+    question: "What is the value of pi (approx)?",
+    options: ["3.14", "3.13", "3.15", "3.16"],
+    answer: 0,
+  },
 ];
 
 const questions5 = [
-    { question: "What is the Heisenberg Uncertainty Principle?", options: ["ΔxΔp ≥ ħ/2", "E = mc^2", "F = ma", "P = IV"], answer: 0 },
-    { question: "Who developed the theory of relativity?", options: ["Einstein", "Newton", "Hawking", "Bohr"], answer: 0 },
-    { question: "What is the function of ribosomes?", options: ["Protein synthesis", "Energy production", "Replication", "Transport"], answer: 0 },
-    { question: "What is Planck's constant?", options: ["6.626x10^-34", "3x10^8", "9.8", "1.6x10^-19"], answer: 0 },
-    { question: "What is the capital of Uzbekistan?", options: ["Tashkent", "Samarkand", "Bukhara", "Khiva"], answer: 0 },
+  {
+    question: "What is the Heisenberg Uncertainty Principle?",
+    options: ["ΔxΔp ≥ ħ/2", "E = mc^2", "F = ma", "P = IV"],
+    answer: 0,
+  },
+  {
+    question: "Who developed the theory of relativity?",
+    options: ["Einstein", "Newton", "Hawking", "Bohr"],
+    answer: 0,
+  },
+  {
+    question: "What is the function of ribosomes?",
+    options: [
+      "Protein synthesis",
+      "Energy production",
+      "Replication",
+      "Transport",
+    ],
+    answer: 0,
+  },
+  {
+    question: "What is Planck's constant?",
+    options: ["6.626x10^-34", "3x10^8", "9.8", "1.6x10^-19"],
+    answer: 0,
+  },
+  {
+    question: "What is the capital of Uzbekistan?",
+    options: ["Tashkent", "Samarkand", "Bukhara", "Khiva"],
+    answer: 0,
+  },
 ];
 
 // Map difficulty levels to their respective questions
 const difficultyMap = {
-    1: questions1,
-    2: questions2,
-    3: questions3,
-    4: questions4,
-    5: questions5,
+  1: questions1,
+  2: questions2,
+  3: questions3,
+  4: questions4,
+  5: questions5,
 };
 
 // Global variables to manage quiz state
@@ -55,6 +156,10 @@ let currentQuestions = difficultyMap[currentDifficulty];
 let currentQuestionIndex = 0;
 let correctAnswers = 0;
 let totalScore = 0;
+let questionStartTime;
+let totalTestStartTime;
+let totalTimeSpent = 0; // Total time spent on the quiz
+const questionTimes = []; // Array to store time spent on each question
 const maxScore = 60; // Maximum possible score: 3 sessions * 5 questions * (difficulty 3 + 4 + 5)
 const correctAnswersPerSession = [0, 0, 0]; // Track correct answers per session
 
@@ -79,211 +184,347 @@ restartBtn.addEventListener("click", restartQuiz);
  * @param {Array} array - The array to shuffle
  */
 function shuffle(array) {
-    for (let i = array.length -1; i >0; i--){
-        const j = Math.floor(Math.random()*(i+1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
 }
 
 /**
  * Function to start the quiz
  */
 function startQuiz() {
-    startContainer.style.display = "none"; // Hide start page
-    quizContainer.style.display = "block"; // Show quiz page
-    loadQuestion(); // Load the first question
+  startContainer.style.display = "none"; // Hide start page
+  quizContainer.style.display = "block"; // Show quiz page
+  totalTestStartTime = Date.now(); // Start total test timer
+  loadQuestion(); // Load the first question
 }
 
 /**
  * Function to load the current question and options
  */
 function loadQuestion() {
-    const question = currentQuestions[currentQuestionIndex];
-    
-    // Clone the options to avoid modifying the original
-    let shuffledOptions = [...question.options];
-    
-    // Shuffle the options
-    shuffle(shuffledOptions);
-    
-    // Find the new index of the correct answer
-    const correctAnswerText = question.options[question.answer];
-    const newCorrectIndex = shuffledOptions.indexOf(correctAnswerText);
-    
-    // Display the question
-    questionElement.textContent = `Session ${currentSession}: ${question.question}`;
-    
-    // Clear previous options
-    optionsElement.innerHTML = "";
-    
-    // Create list items for each option
-    shuffledOptions.forEach((option, index) => {
-        const li = document.createElement("li");
-        li.textContent = option;
-        li.addEventListener("click", () => selectAnswer(index, newCorrectIndex));
-        optionsElement.appendChild(li);
-    });
-    
-    updateProgressBar(); // Update the progress bar
-    nextBtn.disabled = true; // Disable Next button until an option is selected
-}
+  const question = currentQuestions[currentQuestionIndex];
 
+  // Start question timer
+  questionStartTime = Date.now();
+
+  // Clone the options to avoid modifying the original
+  let shuffledOptions = [...question.options];
+
+  // Shuffle the options
+  shuffle(shuffledOptions);
+
+  // Find the new index of the correct answer
+  const correctAnswerText = question.options[question.answer];
+  const newCorrectIndex = shuffledOptions.indexOf(correctAnswerText);
+
+  // Display the question
+  questionElement.textContent = `Session ${currentSession}: ${question.question}`;
+
+  // Clear previous options
+  optionsElement.innerHTML = "";
+
+  // Create list items for each option
+  shuffledOptions.forEach((option, index) => {
+    const li = document.createElement("li");
+    li.textContent = option;
+    li.addEventListener("click", () => selectAnswer(index, newCorrectIndex));
+    optionsElement.appendChild(li);
+  });
+
+  updateProgressBar(); // Update the progress bar
+  nextBtn.disabled = true; // Disable Next button until an option is selected
+
+  // Create a real-time timer display
+  const timerDisplay = document.createElement("p");
+  timerDisplay.id = "timer-display";
+  timerDisplay.textContent = "Time: 0s";
+  if (!document.getElementById("timer-display")) {
+    quizContainer.appendChild(timerDisplay);
+  }
+
+  // Update the timer every second
+  const timerInterval = setInterval(() => {
+    const elapsedTime = Math.floor((Date.now() - questionStartTime) / 1000);
+    document.getElementById(
+      "timer-display"
+    ).textContent = `Time: ${elapsedTime}s`;
+    if (currentQuestionIndex !== currentQuestions.indexOf(question)) {
+      clearInterval(timerInterval); // Stop the timer when moving to the next question
+    }
+  }, 1000);
+}
 /**
  * Function to handle answer selection
  * @param {number} selectedIndex - The index of the selected option
  * @param {number} correctIndex - The index of the correct option after shuffling
  */
 function selectAnswer(selectedIndex, correctIndex) {
-    if (selectedIndex === correctIndex) {
-        correctAnswers++; 
-        correctAnswersPerSession[currentSession - 1]++;
-    }
+  if (selectedIndex === correctIndex) {
+    correctAnswers++;
+    correctAnswersPerSession[currentSession - 1]++;
+  }
 
-    // Highlight the selected option (optional: remove if not desired)
-    Array.from(optionsElement.children).forEach((li, index) => {
-        li.style.borderBottom = index === selectedIndex ? "3px solid #4CAF50" : "none";
-    });
+  // Highlight the selected option (optional: remove if not desired)
+  Array.from(optionsElement.children).forEach((li, index) => {
+    li.style.borderBottom =
+      index === selectedIndex ? "3px solid #4CAF50" : "none";
+  });
 
-    nextBtn.disabled = false; // Enable Next button after selection
+  nextBtn.disabled = false; // Enable Next button after selection
 }
 
 /**
  * Function to proceed to the next question or session
  */
 function nextQuestion() {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < 5) {
-        loadQuestion(); // Load next question in the current session
-    } else {
-        nextSession(); // Proceed to the next session
-    }
+  // Calculate time spent on the current question
+  const timeSpent = Math.floor((Date.now() - questionStartTime) / 1000);
+  questionTimes.push({
+    question: currentQuestions[currentQuestionIndex].question,
+    difficulty: currentDifficulty,
+    timeSpent,
+  });
+
+  currentQuestionIndex++;
+  if (currentQuestionIndex < 5) {
+    loadQuestion(); // Load next question in the current session
+  } else {
+    nextSession(); // Proceed to the next session
+  }
 }
 
 /**
  * Function to handle transition to the next session
  */
 function nextSession() {
-    // Calculate total score based on correct answers and difficulty
-    totalScore += correctAnswersPerSession[currentSession - 1] * currentDifficulty;
-    currentSession++;
-    currentQuestionIndex = 0;
-    correctAnswers = 0;
+  // Calculate total score based on correct answers and difficulty
+  totalScore +=
+    correctAnswersPerSession[currentSession - 1] * currentDifficulty;
+  currentSession++;
+  currentQuestionIndex = 0;
+  correctAnswers = 0;
 
-    if (currentSession > 3) {
-        showResults(); // If all sessions are completed, show results
-    } else {
-        // Adjust difficulty for the next session based on performance
-        if (currentSession === 2) {
-            currentDifficulty = correctAnswersPerSession[0] >= 3 ? 4 : 2;
-        } else if (currentSession === 3) {
-            if (currentDifficulty === 4) {
-                currentDifficulty = correctAnswersPerSession[1] >= 3 ? 5 : 2;
-            } else {
-                currentDifficulty = correctAnswersPerSession[1] >= 3 ? 4 : 1;
-            }
-        }
-        currentQuestions = difficultyMap[currentDifficulty]; // Update questions for new difficulty
-        loadQuestion(); // Load the first question of the new session
+  if (currentSession > 3) {
+    showResults(); // If all sessions are completed, show results
+  } else {
+    // Adjust difficulty for the next session based on performance
+    if (currentSession === 2) {
+      currentDifficulty = correctAnswersPerSession[0] >= 3 ? 4 : 2;
+    } else if (currentSession === 3) {
+      if (currentDifficulty === 4) {
+        currentDifficulty = correctAnswersPerSession[1] >= 3 ? 5 : 2;
+      } else {
+        currentDifficulty = correctAnswersPerSession[1] >= 3 ? 4 : 1;
+      }
     }
+    currentQuestions = difficultyMap[currentDifficulty]; // Update questions for new difficulty
+    loadQuestion(); // Load the first question of the new session
+  }
 }
 
 /**
  * Function to display the quiz results
  */
 function showResults() {
-    quizContainer.style.display = "none"; // Hide quiz page
-    resultsContainer.style.display = "block"; // Show results page
-    resultsContainer.querySelector("#score").textContent = `Your Score: ${totalScore} / ${maxScore}`;
-    visualizeResults(); // Generate charts
+  // Calculate total time spent on the quiz
+  totalTimeSpent = Math.floor((Date.now() - totalTestStartTime) / 1000);
+
+  quizContainer.style.display = "none"; // Hide quiz page
+  resultsContainer.style.display = "block"; // Show results page
+  resultsContainer.querySelector(
+    "#score"
+  ).textContent = `Your Score: ${totalScore} / ${maxScore}`;
+
+  // Create a table for results
+  const resultsTable = document.createElement("table");
+  resultsTable.id = "results-table";
+  resultsTable.innerHTML = `
+        <thead>
+            <tr>
+                <th>Question</th>
+                <th>Difficulty</th>
+                <th>Time Spent (s)</th>
+            </tr>
+        </thead>
+        <tbody>
+            ${questionTimes
+              .map(
+                ({ question, difficulty, timeSpent }, index) => `
+                <tr>
+                    <td>${index + 1}</td>
+                    <td>${difficulty}</td>
+                    <td>${timeSpent}</td>
+                </tr>
+            `
+              )
+              .join("")}
+        </tbody>
+    `;
+  resultsContainer.appendChild(resultsTable);
+
+  // Add sorting buttons
+  const sortingContainer = document.createElement("div");
+  sortingContainer.id = "sorting-buttons";
+  sortingContainer.innerHTML = `
+        <button onclick="sortTable('index', 'asc')">Sort by Question Number (Ascending)</button>
+        <button onclick="sortTable('index', 'desc')">Sort by Question Number (Descending)</button>
+        <button onclick="sortTable('difficulty', 'asc')">Sort by Difficulty (Easy to Hard)</button>
+        <button onclick="sortTable('difficulty', 'desc')">Sort by Difficulty (Hard to Easy)</button>
+        <button onclick="sortTable('timeSpent', 'asc')">Sort by Time (Shortest to Longest)</button>
+        <button onclick="sortTable('timeSpent', 'desc')">Sort by Time (Longest to Shortest)</button>
+    `;
+  resultsContainer.appendChild(sortingContainer);
+
+  // Display total time spent
+  const totalTime = document.createElement("p");
+  totalTime.id = "total-time";
+  totalTime.textContent = `Total Time Spent: ${totalTimeSpent} seconds`;
+  resultsContainer.appendChild(totalTime);
+
+  visualizeResults(); // Generate charts
 }
 
+// Function to sort the results table
+function sortTable(key, order) {
+  const sortedData = [...questionTimes]
+    .map((data, index) => ({ ...data, index: index + 1 }))
+    .sort((a, b) => {
+      if (order === "asc") {
+        return a[key] - b[key];
+      } else {
+        return b[key] - a[key];
+      }
+    });
+
+  // Update table body with sorted data
+  const tableBody = document.querySelector("#results-table tbody");
+  tableBody.innerHTML = sortedData
+    .map(
+      ({ index, difficulty, timeSpent }) => `
+        <tr>
+            <td>${index}</td>
+            <td>${difficulty}</td>
+            <td>${timeSpent}</td>
+        </tr>
+    `
+    )
+    .join("");
+}
 /**
  * Function to restart the quiz
  */
 function restartQuiz() {
-    // Reset all global variables to initial state
-    currentSession = 1;
-    currentDifficulty = 3;
-    currentQuestions = difficultyMap[currentDifficulty];
-    currentQuestionIndex = 0;
-    correctAnswers = 0;
-    totalScore = 0;
-    correctAnswersPerSession.fill(0); // Reset correct answers per session
-    resultsContainer.style.display = "none"; // Hide results page
-    startContainer.style.display = "flex"; // Show start page
+  // Reset all global variables to their initial states
+  currentSession = 1;
+  currentDifficulty = 3;
+  currentQuestions = difficultyMap[currentDifficulty];
+  currentQuestionIndex = 0;
+  correctAnswers = 0;
+  totalScore = 0;
+  totalTimeSpent = 0;
+  questionTimes.length = 0; // Clear the questionTimes array
+  correctAnswersPerSession.fill(0); // Reset correct answers per session
+
+  // Clear the results page content
+  const resultsTable = document.getElementById("results-table");
+  const sortingButtons = document.getElementById("sorting-buttons");
+  const totalTimeElement = document.getElementById("total-time");
+
+  if (resultsTable) resultsTable.remove(); // Remove the results table
+  if (sortingButtons) sortingButtons.remove(); // Remove sorting buttons
+  if (totalTimeElement) totalTimeElement.remove(); // Remove total time text
+
+  // Hide results page and show start page
+  resultsContainer.style.display = "none";
+  startContainer.style.display = "flex";
+
+  // Optionally clear chart visualization
+  const chartsContainer = document.getElementById("charts");
+  if (chartsContainer) {
+    chartsContainer.innerHTML = ""; // Clear previous charts
+  }
 }
+
 
 /**
  * Function to update the progress bar based on current question
  */
 function updateProgressBar() {
-    const progress = ((currentQuestionIndex + 1) / 5) * 100; // Calculate progress percentage
-    const progressSpan = progressBar.querySelector("span");
-    progressSpan.style.width = `${progress}%`; // Update width of the progress bar
-    progressSpan.style.backgroundColor = "#4CAF50"; // Set progress bar color
+  const progress = ((currentQuestionIndex + 1) / 5) * 100; // Calculate progress percentage
+  const progressSpan = progressBar.querySelector("span");
+  progressSpan.style.width = `${progress}%`; // Update width of the progress bar
+  progressSpan.style.backgroundColor = "#4CAF50"; // Set progress bar color
 }
 
 /**
  * Function to visualize the quiz results using D3.js
  */
 function visualizeResults() {
-    const width = 500;
-    const height = 400;
-    const margin = { top: 50, right: 30, bottom: 50, left: 50 };
-    const barColors = ["#4CAF50", "#2196F3", "#FF9800"]; // Colors for each session
+  const width = 500;
+  const height = 400;
+  const margin = { top: 50, right: 30, bottom: 50, left: 50 };
+  const barColors = ["#4CAF50", "#2196F3", "#FF9800"]; // Colors for each session
 
-    // Remove any existing SVG to prevent duplicates
-    d3.select("#charts").selectAll("svg").remove();
+  // Remove any existing SVG to prevent duplicates
+  d3.select("#charts").selectAll("svg").remove();
 
-    // Create SVG container
-    const svg = d3
-        .select("#charts")
-        .append("svg")
-        .attr("width", width)
-        .attr("height", height);
+  // Create SVG container
+  const svg = d3
+    .select("#charts")
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height);
 
-    // Define X scale - one band for each session
-    const xScale = d3.scaleBand()
-        .domain([1, 2, 3]) // Three sessions
-        .range([margin.left, width - margin.right])
-        .padding(0.3);
+  // Define X scale - one band for each session
+  const xScale = d3
+    .scaleBand()
+    .domain([1, 2, 3]) // Three sessions
+    .range([margin.left, width - margin.right])
+    .padding(0.3);
 
-    // Define Y scale - based on the number of correct answers
-    const yScale = d3.scaleLinear()
-        .domain([0, 5]) // Max 5 correct answers per session
-        .range([height - margin.bottom, margin.top]);
+  // Define Y scale - based on the number of correct answers
+  const yScale = d3
+    .scaleLinear()
+    .domain([0, 5]) // Max 5 correct answers per session
+    .range([height - margin.bottom, margin.top]);
 
-    // Draw X axis
-    svg.append("g")
-        .attr("transform", `translate(0, ${height - margin.bottom})`)
-        .call(d3.axisBottom(xScale).tickFormat(d => `Session ${d}`))
-        .attr("font-size", "12px");
+  // Draw X axis
+  svg
+    .append("g")
+    .attr("transform", `translate(0, ${height - margin.bottom})`)
+    .call(d3.axisBottom(xScale).tickFormat((d) => `Session ${d}`))
+    .attr("font-size", "12px");
 
-    // Draw Y axis
-    svg.append("g")
-        .attr("transform", `translate(${margin.left}, 0)`)
-        .call(d3.axisLeft(yScale).ticks(5))
-        .attr("font-size", "12px");
+  // Draw Y axis
+  svg
+    .append("g")
+    .attr("transform", `translate(${margin.left}, 0)`)
+    .call(d3.axisLeft(yScale).ticks(5))
+    .attr("font-size", "12px");
 
-    // Create bars for each session
-    svg.selectAll("rect")
-        .data(correctAnswersPerSession)
-        .enter()
-        .append("rect")
-        .attr("x", (d, i) => xScale(i + 1))
-        .attr("y", d => yScale(d))
-        .attr("width", xScale.bandwidth())
-        .attr("height", d => yScale(0) - yScale(d)) // Calculate bar height
-        .attr("fill", (d, i) => barColors[i]);
+  // Create bars for each session
+  svg
+    .selectAll("rect")
+    .data(correctAnswersPerSession)
+    .enter()
+    .append("rect")
+    .attr("x", (d, i) => xScale(i + 1))
+    .attr("y", (d) => yScale(d))
+    .attr("width", xScale.bandwidth())
+    .attr("height", (d) => yScale(0) - yScale(d)) // Calculate bar height
+    .attr("fill", (d, i) => barColors[i]);
 
-    // Add labels on top of each bar
-    svg.selectAll("text.bar-label")
-        .data(correctAnswersPerSession)
-        .enter()
-        .append("text")
-        .attr("class", "bar-label")
-        .attr("x", (d, i) => xScale(i + 1) + xScale.bandwidth() / 2)
-        .attr("y", d => yScale(d) - 5) // Position label above the bar
-        .attr("text-anchor", "middle")
-        .text(d => d);
+  // Add labels on top of each bar
+  svg
+    .selectAll("text.bar-label")
+    .data(correctAnswersPerSession)
+    .enter()
+    .append("text")
+    .attr("class", "bar-label")
+    .attr("x", (d, i) => xScale(i + 1) + xScale.bandwidth() / 2)
+    .attr("y", (d) => yScale(d) - 5) // Position label above the bar
+    .attr("text-anchor", "middle")
+    .text((d) => d);
 }
